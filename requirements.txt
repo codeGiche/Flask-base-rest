@@ -1,0 +1,8 @@
+flask
+flask-restful
+flask-sqlalchemy
+flask-marshmallow
+marshmallow-sqlalchemy
+flask-script
+flask-migrate
+flask-cors

@@ -1,4 +1,6 @@
-from exts import serializerApp
+from flask_marshmallow import Marshmallow
+
+serializerApp = Marshmallow()
 
 class ModelSchema(serializerApp.ModelSchema):
     pass

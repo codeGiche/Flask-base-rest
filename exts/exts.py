@@ -1,7 +1,6 @@
-from flask_restful import Api
-from flask_marshmallow import Marshmallow
-from flask_sqlalchemy import SQLAlchemy
+from databases.dbs import db
+from flask_cors import CORS
+from flask_jwt_extended import JWTManager
 
-db = SQLAlchemy()
-serializerApp = Marshmallow()
-restApi = Api(prefix='/api/v1')
+cors = CORS(resources={})
+jwt = JWTManager()

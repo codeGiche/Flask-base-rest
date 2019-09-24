@@ -13,7 +13,7 @@ It is the swagger directory, it is used for the documentation of routes, respons
 
 **/api/resources**
 
-This folder is for the creation of our views
+This folder is for the creation of our resources
 
 **/databases**
 
